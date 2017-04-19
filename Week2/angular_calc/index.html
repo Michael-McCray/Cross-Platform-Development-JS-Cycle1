@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="my-app">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+<script src="main.js"></script>
+	<title></title>
+</head>
+<body ng-controller="mainCtrl">
+	<!-- <div ng-repeat="list in aList">
+		His ID is {{list.id}} and name is {{list.person}}
+	</div>
+	<input ng-model="myVar" type="text">
+	{{myVar}} -->
+
+	<input type="number" ng-model="numbers.num1" />
+	<input type="number" ng-model="numbers.num2" />
+
+	<button ng-click="add();">Add</button>
+	<button ng-click="subtract();">Subtract</button>
+	<button ng-click="multiply();">Multiply</button>
+	<button ng-click="divide();">Divide</button>
+
+	<input type="text" placeholder="{{results}}">
+
+	
+</body>
+</html>
