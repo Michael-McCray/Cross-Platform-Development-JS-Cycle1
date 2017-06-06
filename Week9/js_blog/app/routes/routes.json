@@ -1,0 +1,6 @@
+{
+	"index": "/index",
+	"create": "/update",
+	"update": "/update",
+	"delete": "/delete"
+}
